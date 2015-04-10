@@ -1,0 +1,173 @@
+/*-----------------------------------------------------------
+Project: GlobalWeb
+File Name:ScreenCSS
+Author: Phillip Rhoton
+/*--------------------------------------------------------*/
+.item{text-align:center;}
+/*---------------------Content Areas------------------------
+body{background-color:#FC9;
+	 font-family: Verdana, Arial, sans-serif;}
+.content{clear:both;
+		 position:relative;
+	     font-size:2em;
+		 color:#FC9;
+		 margin-left:auto;
+		 margin-right:auto;
+		 min-height:600px;
+		 padding:20%;
+		 background-color:#FFF;
+		 border:solid;
+		 border-color:#E6B280;
+		 padding:10% 10% 10% 10%;
+		 overflow:auto;}
+.description{padding:0;}
+.wrapper{background-color:#F93;}
+.icon{display:inline;
+	  position:relative;
+	  top:17px;
+      right:-5px;}
+.Slogan{position:relative;
+	    right:-10px;}
+.Tops{left:40px;
+	  color:#C60;
+	  font-size:.5em;}
+.Tops h6{color:#A9A9B6;}
+.Tops a{text-decoration:none;}
+.Tops a:visited{text-decoration:none;
+					color:#C60;}
+.Tops a:hover{color:#FC9;}
+/*--------------------Content--------------------------------------
+.LeftBar{float:left;
+		 display:inline-block;
+		 position:absolute;
+		 width:10.6%;
+		 min-height:100%;
+		 height:600px;
+		 border:solid;
+		 border-color: #000;
+		 top:0px;
+		 left:0px;
+		 margin:10px;}
+.MiddleBar{float:left;
+		   display:inline-block;
+			position: absolute;
+		   display:block;
+		   display:inline-block;
+		   width:81.9%;
+		   min-height:100%;
+		   height:600px;
+		   border:solid;
+		   border-color: #000;
+		   top:0px;
+		   left:203px;
+	   	    margin:10px;}
+.RightBar{float:right;
+		  display:inline-block;
+		position: absolute;		 
+		border:solid;
+		border-color: #000;
+   		top: 0px;
+   		right: 0px;
+	    background-color:#FFF;
+		margin-right:0;
+		margin:10px;}
+.sampler{position:relative;
+		 border:solid;
+		 border-color:#000;
+		 width:200px;
+		 left:58px;}
+/*----------------------Adverts----------------
+.BarOne{float:right;
+		background-color:#C60;
+		position:relative;
+		right:60px;}
+.BarTwo{float:right;
+	    background-color:#FFF;
+		margin-right:0;}
+.BarThree{position:relative;
+		  bottom:-50px;}
+/*--------------------Headers--------------
+.head{position:relative;
+	  width:100%;
+	  border:solid;
+	  border-color:black;}
+.trophybox{}
+h3{display:inline;
+	padding-left:30px;
+	background-color:#FC9;
+   margin-bottom:0;
+   margin-left:0;}
+ h2{clear:both;
+    text-align:center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	font-size:100%;}
+/*------------------------Menu----------------------------
+.menuBar{background-color:#C60;}
+.menuBar h3{background-color:#C60;
+			font-size:.9em;}
+.menuBar ul {margin: 0;
+			 padding: 0;
+			 list-style-type: none;
+			 font-size:.3em;
+			border-top:solid;
+			border-color:#FC9;}
+.menuBar ul li a {text-decoration: none;
+       			  color: white;
+				  padding: 3.4px 3.2px;
+				  background-color: #C60;
+				  display:block;}
+.menuBar ul li a:visited {color: white;}
+.menuBar ul li a:hover, #menuBar ul li .current {color: white;
+												 background-color: #FC9;}
+/*----------------------Gallery---------------------------------
+#simplegallery1{margin-left:auto;
+			    margin-right:auto;}
+/*-------------------------Search Bar------------------
+.tfheader{position:relative;
+	border-bottom:solid;
+	border-color:#FC9;
+		  top:0px;
+		  height:40px;}
+.tfnewsearch{}
+.tftextinput{position:relative;
+			 margin: 0;
+			 bottom:-3px;
+			 width:199px;
+			 color:#FC9;
+			 background-color:#C60;
+			 font-family: Arial, Helvetica, sans-serif;
+			 font-size:14px;
+			 border:1px solid #C60; border-left:0px;}
+	/* Fixes submit button height problem in Firefox 
+	.tfclear{clear:both;}
+/*---------------------Navigation-----------
+.fnav ul{text-decoration:none;}
+.fnav a{font-size:1.2em;
+	 	display:inline;
+		 text-align:center;}
+/*--------------Footer--------------------
+.footer{padding-left:20px;
+		padding-top:30px;
+	    font-size:.8em;
+		color:#FFF;}
+.BContent{clear:both;
+		  float:left;
+	      padding-left:20px;
+		  padding-top:30px;
+		  font-size:1.2em;
+		  color:#FFF;
+		  margin: 20px 20px 20px 20px;}
+.email{text-decoration:none;
+	 display:inline;
+	 text-align:center;
+	 font-weight: bold;
+-	 color:#FFF;}
+/*-------------Misc---------------
+#sampler{color:#000;
+		 font-size:.5em;}
+.TopList{margin-left:auto;
+		 margin-right:auto;
+		 padding-bottom:10px;
+		 overflow:scroll;}
