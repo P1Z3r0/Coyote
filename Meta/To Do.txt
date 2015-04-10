@@ -1,1 +1,0 @@
-Add javascript that will rewrite the top list at the first of every month by collecting from our top rated.
